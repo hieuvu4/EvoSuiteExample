@@ -1,0 +1,12 @@
+org.example.WhichPath_ESTest_scaffolding
+org.example.searching.LinearSearch_ESTest_scaffolding
+org.example.searching.BinarySearch_ESTest_scaffolding
+org.example.Calculator_ESTest_scaffolding
+org.example.sorting.QuickSort_ESTest_scaffolding
+org.example.sorting.SelectionSort_ESTest_scaffolding
+org.example.sorting.InsertionSort_ESTest_scaffolding
+org.example.sorting.BubbleSort_ESTest_scaffolding
+org.example.sorting.MergeSort_ESTest_scaffolding
+org.example.ExamGrades_ESTest_scaffolding
+org.example.WhatKindOfNumber_ESTest_scaffolding
+org.example.NestedLoops_ESTest_scaffolding

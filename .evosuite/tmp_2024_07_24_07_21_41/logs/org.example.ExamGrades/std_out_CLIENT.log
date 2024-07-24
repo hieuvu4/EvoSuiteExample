@@ -1,0 +1,76 @@
+* Starting client
+* Connecting to master process on port 6458
+* Analyzing classpath: 
+  - /Users/hieu/Library/CloudStorage/OneDrive-Personal/Studium/Seminar Machine Learning in Software Engineering/ExampleProject/EvoSuiteExample/target/test-classes
+  - /Users/hieu/Library/CloudStorage/OneDrive-Personal/Studium/Seminar Machine Learning in Software Engineering/ExampleProject/EvoSuiteExample/target/classes
+  - /Users/hieu/.m2/repository/junit/junit/4.13.1/junit-4.13.1.jar
+  - /Users/hieu/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar
+* Finished analyzing classpath
+* Generating tests for class org.example.ExamGrades
+* Test criteria:
+  - Line Coverage
+  - Branch Coverage
+  - Exception
+  - Mutation testing (weak)
+  - Method-Output Coverage
+  - Top-Level Method Coverage
+  - No-Exception Top-Level Method Coverage
+  - Context Branch Coverage
+* Setting up search algorithm for whole suite generation
+[MASTER] 07:25:29.534 [pool-2-thread-1] WARN  TestSuiteSerialization - Cannot load tests because file does not exist: /Users/hieu/Library/CloudStorage/OneDrive-Personal/Studium/Seminar Machine Learning in Software Engineering/ExampleProject/EvoSuiteExample/.evosuite/evosuite-seeds/org.example.ExamGrades.seed
+* Loaded 0 tests from /Users/hieu/Library/CloudStorage/OneDrive-Personal/Studium/Seminar Machine Learning in Software Engineering/ExampleProject/EvoSuiteExample/.evosuite/evosuite-seeds/org.example.ExamGrades.seed
+* Total number of test goals: 
+  - Line 12
+  - Branch 13
+  - Exception 0
+  - MutationFactory 82
+  - Output 3
+  - Method 2
+  - MethodNoException 2
+  - CBranchFitnessFactory 13
+* Using seed 1721798727286
+* Starting evolution
+* Search finished after 79s and 1377 generations, 181918 statements, best individual has fitness: 2.5
+* Writing sequences to pool
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion LINE
+* Coverage of criterion LINE: 100%
+* Total number of goals: 12
+* Number of covered goals: 12
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 100%
+* Total number of goals: 13
+* Number of covered goals: 13
+* Coverage analysis for criterion EXCEPTION
+* Coverage of criterion EXCEPTION: 100%
+* Total number of goals: 1
+* Number of covered goals: 1
+* Coverage analysis for criterion WEAKMUTATION
+* Coverage of criterion WEAKMUTATION: 100%
+* Total number of goals: 82
+* Number of covered goals: 82
+* Coverage analysis for criterion OUTPUT
+* Coverage of criterion OUTPUT: 33%
+* Total number of goals: 3
+* Number of covered goals: 1
+* Coverage analysis for criterion METHOD
+* Coverage of criterion METHOD: 100%
+* Total number of goals: 2
+* Number of covered goals: 2
+* Coverage analysis for criterion METHODNOEXCEPTION
+* Coverage of criterion METHODNOEXCEPTION: 100%
+* Total number of goals: 2
+* Number of covered goals: 2
+* Coverage analysis for criterion CBRANCH
+* Coverage of criterion CBRANCH: 100%
+* Total number of goals: 13
+* Number of covered goals: 13
+* Generated 11 tests with total length 22
+* Resulting test suite's coverage: 92% (average coverage for all fitness functions)
+* Generating assertions
+* Resulting test suite's mutation score: 83%
+* Compiling and checking tests
+* Writing JUnit test case 'ExamGrades_ESTest' to /Users/hieu/Library/CloudStorage/OneDrive-Personal/Studium/Seminar Machine Learning in Software Engineering/ExampleProject/EvoSuiteExample/.evosuite/tmp_2024_07_24_07_21_41/tests
+* Done!
+
