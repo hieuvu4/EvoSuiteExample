@@ -1,9 +1,9 @@
 # Description
 
-This project provides an example of using the EvoSuite unit test generation tool. EvoSuite can be installed and utilized in two primary ways: through Maven and via the CommandLine interface.
+This project provides an example of using the unit test generation tool EvoSuite. EvoSuite can be installed and utilized in many ways, in our case, it was through Maven and via CommandLine.
 
-1.	Maven Integration: Using Maven, a comprehensive test suite can be generated for all testable classes within a project.
-2.	CommandLine Interface: Through the CommandLine interface, a test suite can be generated for a specific class by specifying criteria such as branch coverage, line coverage, etc. Additionally, the search budget, which defines the extent of the generation process based on genetic algorithms, can be customized.
+1.	Maven: Using Maven, a comprehensive test suite can be generated for all testable classes within a project.
+2.	CommandLine: Through the CommandLine, a test suite can be generated for a specific class by specifying criteria such as branch coverage, line coverage, etc. Additionally, the search budget, which defines the extent of the generation process based on genetic algorithms, can be customized.
 
 # Instruction
 
