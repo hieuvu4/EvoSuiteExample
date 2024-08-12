@@ -2,8 +2,9 @@ package org.example;
 
 public class Calculator {
 
+    // semantically false method
     public double add(double a, double b) {
-        return a + b;
+        return a - b;
     }
 
     public double subtract(double a, double b) {
@@ -15,9 +16,6 @@ public class Calculator {
     }
 
     public double divide(double a, double b) {
-        if(b == 0) {
-            throw new ArithmeticException("b must not be 0.");
-        }
         return a / b;
     }
 
